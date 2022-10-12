@@ -1,0 +1,42 @@
+body{
+    border: solid 1px black;
+    width: 90%;
+    margin: 50px;
+}
+header{
+    border: solid 1px black;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    border: solid 1px black;
+    margin: 10px;
+}
+
+h2{
+    border: solid 1px black;
+    margin: 10px;
+}
+
+
+section{
+    margin: auto;
+    border: solid 1px black; 
+    width: 60%;
+    display:flex;
+    
+}
+
+#menu{
+    border: solid 1px black;
+}
+
+#cosas{
+    border: solid 1px black;
+}
+
+footer {
+    border: solid 1px black;
+    width: 100%;
+}
