@@ -1,0 +1,173 @@
+
+/*Ajuste general de la página*/
+body{
+    border: solid 1px black;
+    width: 80%;
+    margin: 50px;    
+}
+
+/*Elementos de inicio de página */
+/*Título y un párrafo general*/
+header{
+    border: solid 1px black;
+    width: 100%;
+    text-align: center;
+}
+
+/*Título del header*/
+h1{
+    border: solid 1px black;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+/*Párrafo del header*/
+p{
+    font-family: sans-serif;
+    border: solid 1px black;
+    margin: 10px;
+}
+
+/*Edición del contenido del centro de la página*/
+/*Ajuste genereal del cuerpo del centro de la página*/
+section{
+    margin: auto;
+    border: solid 1px black; 
+    width: 80%;
+    display:flex;
+    
+}
+
+/* Edición de la botonera*/
+/*Botones del menu lado izquierdo*/
+#botones{
+    width: 50%;
+    border: solid 1px blue;
+}
+
+
+/* Ajuste de los botones menu especifico*/
+#menus{
+    border: solid 1px green;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    margin-right: 0px;
+    margin-left: 10px; 
+    height: 95%;
+}
+
+/*Formato al texto del menu*/
+h{
+    font-family:sans-serif;
+    display: block;
+    border: solid 1px green;
+    margin: 10px;
+}
+
+
+#cuerpo{
+    border: solid 1px blue;
+    width: 210%;
+}
+
+
+/*Elemento que edita contenido del centro*/
+#contenido{
+    border: solid 1px aqua;
+    width: 95%;
+    margin: 10px;
+    margin-left: 0px;
+    margin-bottom: 31px;
+}
+
+/*Titulo de la cabecera seccion central*/
+#titulo{
+    border: solid 1px pink;
+    margin: 10px;
+    font-family: sans-serif;
+    color: aqua;
+    font-size: 30px;
+    
+}
+
+/*Texto del encabezado sección central*/
+#texto{
+    border: solid 1px yellow;
+    margin: 10px;
+    line-height: 150%;
+    font-family: sans-serif;
+}
+
+/*Div central con 3 elementos */
+#contenido_c{
+    border: solid 1px blue;
+    padding: 10px;
+}
+
+/*Edicion de logos y textos del centro*/
+#c_1{
+    border: solid 1px aqua;
+    display: flex;
+    width: 100%;
+}
+
+/*Edición de los 3 elementos centrales*/
+#imag1{
+    padding: 10px;
+    border: solid 1px pink;
+    margin:10px;
+    width: 33%;
+}
+
+/*Ajuste del logo de los 3 elementos*/
+#imagen_c{
+    border: solid 1px blue;
+    width: 40%;
+    margin-left: 30%;
+}
+
+/*Edición del elemento títulos de los logos*/
+#titulo_c{
+    border: solid 1px green;
+    text-align: center;
+    font-weight: bold;
+}
+/*Texto de los 3 elementos de los logos*/
+#contenido_titulo{
+    line-height : 20px;
+}
+/*Enlace del fondo de los logos*/
+#enlace{
+    margin-left: 35%;
+    border: solid 1px green;
+}
+
+
+/*Div donde se ubica la imagen del fondo*/
+#imagen_fondo{
+    border: solid 1px blue;
+    margin-top: 2%;
+    margin-bottom: 5px;
+}
+
+/*Ajuste de la imagen dentro del div*/
+#imag{
+    width: 100%
+}
+
+/*Edición de elementos del fondo de la página*/
+footer {
+    border: solid 1px black;
+    width: 100%;
+}
+
+/*Pie de página*/
+#pfooter{
+    border: solid 1px aqua;
+    text-align: right;
+    margin: 10px;
+    padding-right: 10px;
+   
+}
