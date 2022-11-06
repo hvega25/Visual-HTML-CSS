@@ -1,0 +1,154 @@
+/* Editar cuerpo general de la página*/
+body{
+    width: 90%;
+    margin: 0px;
+  
+}
+
+/*Header principal del encabezado*/
+ header {
+   background: black;
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+/* Edición enlace header*/
+.header_galeria{
+    width: 100%;
+}
+
+/*Edición enlace y dar formato*/
+nav a{
+    color: white;
+    text-decoration-line: none;
+    float: right;
+    margin-right: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Edición cuando el ratón se ubica en el enlace*/
+nav a:hover{
+    text-decoration-line: underline ;
+    color: aqua;
+}
+
+/* Imagen del header*/
+.section_header img {
+    width: 100%;
+    height: 600px;
+}
+
+
+/*Edición texto dentro de la imagen  del encabezado*/
+.texto_en_imagen{
+  position: absolute;
+  top: 30%;
+  width: 90%;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+  margin-left: 10%;
+  font-family: sans-serif;
+}
+
+/*Imagen y texto de sobre nosoltres*/
+.texto_SobreNosoltres{
+    padding: 60px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 20%;
+    position: relative;
+}
+
+/*Contenedor de imagen y texto 1*/
+.Contedor_imagenYtexto1{
+    width: 75%;
+    margin-left: 16%;
+}
+
+/*Contenedor la imagen sobreNosoltres1*/
+.contenedor_imagen1{
+    float: left;
+    width: 30%;
+}
+/*Elemento imagen*/
+#ima2{
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*Contenedor texto*/
+.texto_carta1{
+    float:right;
+    width: 60%;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 19px;
+}
+
+
+/*Contenedor texto*/
+.texto_carta2{
+    float:left;
+    width: 60%;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 19px;
+}
+
+/*Edición para separar elementos*/
+.contenedor_sobreNosoltres_2{
+    position: relative;
+    margin-top: 20%;
+}
+
+/*Contenedor de imagen y texto 2*/
+.Contedor_imagenYtexto2{
+    width: 75%;
+    margin-left: 16%;
+}
+
+/*Contenedor la imagen sobreNosoltres1*/
+.contenedor_imagen2{
+    float: right;
+    width: 30%;
+}
+
+/*Elemento imagen*/
+#imagen2{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/*Menu*/
+.menu_principal{
+    margin-top: 40%;
+    position: relative;
+}
+
+
+.menu{
+    background-color: rgb(65, 82, 158);
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    padding: 20px;
+}
+/*Edición fondo de pie de página*/
+footer{
+background-color: black;
+color: white;
+display: flex;
+padding: 10px;
+justify-content:space-between;
+position: relative;
+width: 100%;
+}
+
