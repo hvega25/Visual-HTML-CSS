@@ -1,0 +1,208 @@
+@media only screen and (max-width:576px) {
+
+
+    /*Ajuste general de la página*/
+    body {
+        width: 75%;
+        margin: 0px;
+    }
+
+
+    /*Ajuste de la cabecera Galeria/Carta/Nosoltres*/
+    header {
+        background: white;
+        display: flex;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        margin-left: 10px;
+    }
+
+    nav a {
+        color: black;
+        text-decoration-line: none;
+        float: left;
+        margin-left: 15px;
+        margin-right: 25px;
+        padding: 10px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    nav a:hover {
+        text-decoration-line: underline;
+        color: aqua;
+    }
+
+    .header_galeria {
+        width: 100%;
+    }
+
+    /*Ajuste imagen y texto Restaurant els coberts*/
+
+    .section_header img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .texto_en_imagen {
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+        margin-left: 30px;
+    }
+
+    /*Ajuste de sobre nosoltres*/
+    #sn {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding: 50px;
+    }
+
+
+    .contenedor_imagen1 img {
+        width: 100%;
+        width: 90%;
+    }
+
+    .Contedor_imagenYtexto2 img {
+        width: 100%;
+        width: 90%;
+    }
+
+    #lorem_texto {
+        text-align: justify;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    section {
+        width: 90%;
+        text-align: center;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas: "header"
+            "text"
+            "ima"
+            "ima2"
+        ;
+
+    }
+
+    .texto_carta1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .item2 {
+        text-align: justify;
+    }
+
+    .grid-container img {
+        width: 350px;
+    }
+
+    .item1 {
+        width: 100%;
+        border: solid 1px blue;
+    }
+
+    .menu_principal {
+        width: 90%;
+        margin-left: 5%;
+        justify-content: space-between;
+    }
+
+    .galeria img {
+        width: 350px;
+        border-radius: 5%;
+        padding: 10px;
+    }
+
+    .galeria img:hover{
+        border-right-style: double;
+        border-top-style: double;
+        border-left-style: double;
+        border-bottom-style: double;
+    
+    }
+    .galeria .ima1,
+    .ima4,
+    .ima5,
+    .ima8 {
+        filter: brightness(40%)
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        position: relative;
+        width: 576px;
+    }
+
+    footer div {
+        margin: 10px;
+        height: 20px;
+    }
+
+    footer img {
+        margin-right: 10px;
+    }
+
+    footer p {
+        margin-top: 0px;
+    }
+
+    .correo {
+        display: flex;
+        float: left;
+    }
+
+    .telefono {
+        display: flex;
+    }
+
+    .Hecho {
+        display: none;
+        float: right;
+        margin-top: -30px;
+    }
+
+
+    footer p {
+        font-family: sans-serif;
+    }
+
+    .overlay{
+        position:relative; 
+        bottom: 0; 
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1; 
+        width: 309px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        top: -68px;
+      }
+
+     .menu_principal:hover .overlay{
+        opacity: 1;
+     }
+     
+
+
+}
