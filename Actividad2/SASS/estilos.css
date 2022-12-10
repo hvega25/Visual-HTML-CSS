@@ -1,0 +1,24 @@
+.grid-container item1 {
+  border: solid 1px black;
+  padding-top: 250px;
+}
+.grid-container item2 {
+  text-align: justify;
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.grid-container img {
+  border-radius: 2.5%;
+  width: 600px;
+}
+
+.header_galeria {
+  width: 100%;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,27 @@
+//anidamiento de regla 
+.grid-container {
+
+    item1 {
+        border: solid 1px black;
+        padding-top: 250px;
+    }
+
+    item2 {
+        text-align: justify;
+        padding: 30px;
+        font-family: sans-serif;
+        font-size: 25px;
+    }
+
+    div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    img {
+        border-radius: 2.5%;
+        width: 600px;
+    }
+}

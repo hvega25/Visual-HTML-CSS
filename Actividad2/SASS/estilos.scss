@@ -1,0 +1,16 @@
+//variables
+$tamaño_estandar : 100%;
+$subrayado : underline;
+$familia_letras: sans-serif;
+$justifar_parrafos: justify;
+$color_fondo : black;
+$color_fondo_secundario: white;
+
+
+//importaciones
+@import "grid";
+.header_galeria {
+    width: $tamaño_estandar;
+}
+
+//anidamiento de propiedad
