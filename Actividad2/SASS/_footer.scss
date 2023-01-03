@@ -1,0 +1,26 @@
+//mixin1
+@mixin estandar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    @include estandar;
+
+    div {
+        margin: 10px;
+        height: 20px;
+    }
+
+    p {
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+
+    img {
+        margin-right: 10px;
+    }
+}

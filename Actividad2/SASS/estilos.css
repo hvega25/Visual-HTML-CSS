@@ -1,12 +1,12 @@
-.grid-container item1 {
+.grid-container .item1 {
   border: solid 1px black;
   padding-top: 250px;
 }
-.grid-container item2 {
+.grid-container .item2 {
   text-align: justify;
   padding: 30px;
-  font-family: sans-serif;
-  font-size: 25px;
+  family: Helvetica, sans-serif;
+  size: 25px;
 }
 .grid-container div {
   background-color: rgba(255, 255, 255, 0.8);
@@ -19,6 +19,36 @@
   width: 600px;
 }
 
+.galeria, .ima8, .ima5, .ima4, .ima1 {
+  filter: brightness(40%);
+}
+
+.galeria img:hover, .ima8 img:hover, .ima5 img:hover, .ima4 img:hover, .ima1 img:hover {
+  border-right-style: double;
+  border-top-style: double;
+  border-left-style: double;
+  border-bottom-style: double;
+}
+
 .header_galeria {
   width: 100%;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+footer div {
+  margin: 10px;
+  height: 20px;
+}
+footer p {
+  margin-top: 0px;
+  font-family: sans-serif;
+}
+footer img {
+  margin-right: 10px;
 }/*# sourceMappingURL=estilos.css.map */

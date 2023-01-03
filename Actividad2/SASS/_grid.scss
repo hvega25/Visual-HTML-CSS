@@ -1,16 +1,21 @@
+//mixin2 y anidadamiento de propiedad 
+@mixin font {
+    family: Helvetica, sans-serif;
+    size: 25px;
+}
+
 //anidamiento de regla 
 .grid-container {
 
-    item1 {
+    .item1 {
         border: solid 1px black;
         padding-top: 250px;
     }
 
-    item2 {
+    .item2 {
         text-align: justify;
         padding: 30px;
-        font-family: sans-serif;
-        font-size: 25px;
+        @include font;
     }
 
     div {
@@ -24,4 +29,37 @@
         border-radius: 2.5%;
         width: 600px;
     }
+}
+
+
+
+//extend1
+.galeria {
+    filter: brightness(40%);
+}
+
+.galeria {
+    img:hover {
+        border-right-style: double;
+        border-top-style: double;
+        border-left-style: double;
+        border-bottom-style: double;
+    }
+
+}
+
+.ima1 {
+    @extend .galeria;
+}
+
+.ima4 {
+    @extend .galeria;
+}
+
+.ima5 {
+    @extend .galeria;
+}
+
+.ima8 {
+    @extend .galeria;
 }

@@ -1,12 +1,12 @@
 /* Editar cuerpo general de la página*/
-body{
+body {
     width: 1920px;
     margin: 0px;
 }
 
 /*Header principal del encabezado*/
- header {
-   background: black;
+header {
+    background: black;
     display: flex;
     width: 100%;
     position: sticky;
@@ -14,15 +14,16 @@ body{
 }
 
 /* Edición enlace header*/
-.header_galeria{
+.header_galeria {
     width: 100%;
 }
 
-section{
+section {
     width: 100%;
 }
+
 /*Edición enlace y dar formato*/
-nav a{
+nav a {
     color: white;
     text-decoration-line: none;
     float: right;
@@ -33,8 +34,8 @@ nav a{
 }
 
 /* Edición cuando el ratón se ubica en el enlace*/
-nav a:hover{
-    text-decoration-line: underline ;
+nav a:hover {
+    text-decoration-line: underline;
     color: aqua;
 }
 
@@ -46,21 +47,21 @@ nav a:hover{
 
 
 /*Edición texto dentro de la imagen  del encabezado*/
-.texto_en_imagen{
-  position: absolute;
-  top: 30%;
-  width: 90%;
-  text-align: left;
-  font-size: 15px;
-  color: white;
-  margin-left: 10%;
-  font-family: sans-serif;
+.texto_en_imagen {
+    position: absolute;
+    top: 30%;
+    width: 90%;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    margin-left: 10%;
+    font-family: sans-serif;
 }
 
 /*Imagen y texto de sobre nosoltres*/
-.texto_SobreNosoltres{
+.texto_SobreNosoltres {
     padding: 60px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 28px;
     margin-left: 200px;
@@ -68,25 +69,26 @@ nav a:hover{
 }
 
 /*Contenedor de imagen y texto 1*/
-.Contedor_imagenYtexto1{
+.Contedor_imagenYtexto1 {
     width: 70%;
     margin-left: 16%;
 }
 
 /*Contenedor la imagen sobreNosoltres1*/
-.contenedor_imagen1{
+.contenedor_imagen1 {
     float: left;
     width: 30%;
 }
+
 /*Elemento imagen*/
-#ima2{
+#ima2 {
     width: 100%;
     border-radius: 20px;
 }
 
 /*Contenedor texto*/
-.texto_carta1{
-    float:right;
+.texto_carta1 {
+    float: right;
     width: 60%;
     font-family: sans-serif;
     text-align: justify;
@@ -95,8 +97,8 @@ nav a:hover{
 
 
 /*Contenedor texto*/
-.texto_carta2{
-    float:left;
+.texto_carta2 {
+    float: left;
     width: 60%;
     font-family: sans-serif;
     text-align: justify;
@@ -104,32 +106,32 @@ nav a:hover{
 }
 
 /*Edición para separar elementos*/
-.contenedor_sobreNosoltres_2{
+.contenedor_sobreNosoltres_2 {
     margin-top: 20%;
 }
 
 /*Contenedor de imagen y texto 2*/
-.Contedor_imagenYtexto2{
+.Contedor_imagenYtexto2 {
     width: 75%;
     margin-left: 16%;
 }
 
 /*Contenedor la imagen sobreNosoltres1*/
-.contenedor_imagen2{
+.contenedor_imagen2 {
     float: right;
     width: 30%;
-   
+
 }
 
 /*Elemento imagen*/
-#imagen2{
+#imagen2 {
     width: 100%;
     border-radius: 20px;
 }
 
 
 /*Menu*/
-.menu_principal{
+.menu_principal {
     margin-top: 40%;
     width: 75%;
     margin-left: 15%;
@@ -137,7 +139,7 @@ nav a:hover{
 }
 
 
-.menu{
+.menu {
     background-color: rgb(65, 82, 158);
     color: white;
     text-align: center;
@@ -145,14 +147,14 @@ nav a:hover{
     margin-bottom: 40px;
 }
 
-.texto_1{
+.texto_1 {
     font-size: 30px;
     margin-bottom: 20px;
     font-weight: bold;
     font-family: sans-serif;
 }
 
-.galeria{
+.galeria {
     margin-bottom: 40px;
 }
 
@@ -160,62 +162,62 @@ nav a:hover{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto ;
-    gap:10px;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
     width: 40%;
     padding: 10px;
-    
-  }
-  
-  .grid-container .item1{
+
+}
+
+.grid-container .item1 {
     border: solid 1px black;
     padding-top: 250px;
-     
-  }
 
-  .grid-container .item2{
-   text-align: justify;
-   padding: 30px;
+}
+
+.grid-container .item2 {
+    text-align: justify;
+    padding: 30px;
     font-family: sans-serif;
     font-size: 25px;
-  }
+}
 
-  .grid-container > div {
+.grid-container>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
-  
-  .item1{
+}
+
+.item1 {
     grid-column: 1/1;
     grid-row: 1/3;
-  }
+}
 
-  .item2{
+.item2 {
     grid-column: 2/4;
     grid-row: 1;
-  }
- 
-
-  .item3{
-    grid-column: 2/3;
-    grid-row:2;
-  }
-
-  .item4{
-    grid-column: 3/4;
-    grid-row:2;
-  }
-  
-
-.grid-container img{
-     border-radius: 2.5%;
-     width: 600px;
 }
 
 
-.galeria{
+.item3 {
+    grid-column: 2/3;
+    grid-row: 2;
+}
+
+.item4 {
+    grid-column: 3/4;
+    grid-row: 2;
+}
+
+
+.grid-container img {
+    border-radius: 2.5%;
+    width: 600px;
+}
+
+
+.galeria {
     margin-left: 2%;
     width: 90%;
     display: flex;
@@ -223,61 +225,65 @@ nav a:hover{
     justify-content: space-between;
 }
 
-.galeria img:hover{
+.galeria img:hover {
     border-right-style: double;
     border-top-style: double;
     border-left-style: double;
     border-bottom-style: double;
 
 }
+
 .galeria img {
     width: 300px;
     border-radius: 3%;
     padding: 10px;
 }
 
-.galeria .ima1, .ima4,.ima5,.ima8{
+.galeria .ima1,
+.ima4,
+.ima5,
+.ima8 {
     filter: brightness(40%)
 }
 
 /*Final edicion grid*/
 /*Edición fondo de pie de página*/
-footer{
-background-color: black;
-color: white;
-padding: 10px;
-position: relative;
-width: 100%;
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: relative;
+    width: 100%;
 }
 
-footer div{
+footer div {
     margin: 10px;
     height: 20px;
 }
-footer img{
+
+footer img {
     margin-right: 10px;
 }
 
-footer p{
+footer p {
     margin-top: 0px;
 }
 
-.correo{
+.correo {
     display: flex;
     float: left;
 }
 
-.telefono{
+.telefono {
     display: flex;
 }
 
-.Hecho{
+.Hecho {
     float: right;
     margin-top: -30px;
 }
 
 
-footer p{
+footer p {
     font-family: sans-serif;
 }
-
